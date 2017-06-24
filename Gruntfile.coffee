@@ -187,6 +187,7 @@ module.exports = (grunt) ->
     'express:dist'
     'keepalive'
   ]
+  grunt.registerTask 'test', []
   grunt.registerTask 'default', [
     'buildClient'
     'buildWeb'
